@@ -24,6 +24,6 @@ let state; // undefined
 
 
 // object
-
+console.log(typeof name); // string
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
