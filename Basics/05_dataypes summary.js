@@ -152,3 +152,35 @@ Return type of variables in JavaScript
 
 
 */ 
+
+
+
+// stack ( premitive ) , heap ( non premitive ) memory allocation in javascript
+
+let myYoutubename = 'harsh'; // string
+
+let anotherYoutubename = myYoutubename; // copy by value
+anotherYoutubename = 'harsh Hindi'; // changing the value of anotherYoutubename does not change myYoutubename
+
+
+console.log(myYoutubename); // harsh
+console.log(anotherYoutubename);  // harsh Hindi
+
+
+
+
+let user = {
+    email: "user@gmail.com" ,
+
+    upi : "user@upi" 
+}
+
+
+
+let userTwo = userOne
+
+userTwo.email = " hi@gmail.com "
+
+
+console.log(user.email); //
+console.log(userTwo.email); //
